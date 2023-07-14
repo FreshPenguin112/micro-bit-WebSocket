@@ -1,0 +1,26 @@
+{
+    "name": "micro-bit-websocket-hex",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "micro-bit-websocket": "github:freshpenguin112/micro-bit-websocket"
+    },
+    "files": [
+        "config.json",
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.15",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
